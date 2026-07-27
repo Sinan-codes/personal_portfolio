@@ -10,8 +10,8 @@ export const profile = {
   email: "mohamed.kassim.sinan@gmail.com",
   resumeUrl: "#",
   social: {
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/",
+    github: "https://github.com/Sinan-codes",
+    linkedin: "https://www.linkedin.com/in/sinan-mohamed-548737347/",
     twitter: "https://x.com/",
   },
 };

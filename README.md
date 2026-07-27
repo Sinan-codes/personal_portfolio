@@ -1,16 +1,49 @@
-# React + Vite
+# Mohamed Kassim Sinan — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal portfolio site for **Mohamed Kassim Sinan**, a full stack developer who builds products end-to-end — from database schema to pixel-perfect UI.
 
-Currently, two official plugins are available:
+Built with React 19, Vite, Tailwind CSS, and Framer Motion.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Contact:** [mohamed.kassim.sinan@gmail.com](mailto:mohamed.kassim.sinan@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sinan-mohamed-548737347/) · [GitHub](https://github.com/Sinan-codes)
 
-## React Compiler
+## Featured Projects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Project | Description | Stack |
+|---|---|---|
+| **[Cortex](https://cortex-jgp9.onrender.com)** ([repo](https://github.com/Sinan-codes/cortex)) | Full-stack RAG app — upload documents and chat with them, with cited answers grounded in your own content. | FastAPI, PostgreSQL, React |
+| **[BoardCollab](https://boardcollab.onrender.com)** ([repo](https://github.com/Sinan-codes/board_collab)) | Real-time collaborative whiteboard — multiple people draw on the same canvas over WebSockets, with live cursors and chat, no polling. | FastAPI, React, WebSocket, Konva.js |
 
-## Expanding the Oxlint configuration
+## Skills
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **Frontend:** React, TypeScript, Tailwind CSS, Redux
+- **Backend:** FastAPI, Python, REST & GraphQL
+- **Data & Infra:** PostgreSQL, MongoDB, Redis, Docker, AWS
+- **Tooling:** Git, CI/CD
+
+## Running Locally
+
+```bash
+npm install
+npm run dev
+```
+
+Other scripts:
+
+```bash
+npm run build     # production build
+npm run preview   # preview the production build
+npm run lint      # lint with Oxlint
+```
+
+## Built With
+
+This site itself is built with:
+
+- [React 19](https://react.dev) + [Vite](https://vite.dev) for a fast dev/build pipeline
+- [Tailwind CSS 4](https://tailwindcss.com) for styling
+- [Framer Motion](https://www.framer.com/motion/) for animation
+- [Oxlint](https://oxc.rs) for linting
+
+## License
+
+See [LICENSE](./LICENSE).
