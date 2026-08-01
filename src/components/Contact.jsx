@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
-import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { profile } from "../data/content";
 
 export default function Contact() {
@@ -38,7 +38,6 @@ export default function Contact() {
           {[
             { icon: FaGithub, href: profile.social.github, label: "GitHub" },
             { icon: FaLinkedin, href: profile.social.linkedin, label: "LinkedIn" },
-            { icon: FaXTwitter, href: profile.social.twitter, label: "Twitter" },
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}

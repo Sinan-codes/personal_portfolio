@@ -12,7 +12,6 @@ export const profile = {
   social: {
     github: "https://github.com/Sinan-codes",
     linkedin: "https://www.linkedin.com/in/sinan-mohamed-548737347/",
-    twitter: "https://x.com/",
   },
 };
 
